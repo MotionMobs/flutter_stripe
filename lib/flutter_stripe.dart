@@ -1,7 +1,6 @@
 library flutter_stripe;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/stp_api_client.dart';
+export 'src/stp_card_params.dart';
+export 'src/stp_address.dart';
+export 'src/stp_token.dart';
