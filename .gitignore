@@ -1,0 +1,7 @@
+### Dart ###
+.packages
+.pub/
+build/
+
+### Intellij ###
+.idea
