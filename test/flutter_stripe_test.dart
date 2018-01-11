@@ -4,7 +4,7 @@ import 'package:test/test.dart';
 
 import 'package:flutter_stripe/flutter_stripe.dart';
 
-Future main() {
+void main() {
   test('requests token successfully', () async {
     Map<String, String> envVars = Platform.environment;
     final client = new STPApiClient(envVars['STRIPE_KEY']);
